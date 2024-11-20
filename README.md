@@ -10,56 +10,56 @@ The dataset used in this analysis is the **Online Retail Dataset**, which contai
 Link: [UCI Repository](https://archive.ics.uci.edu/dataset/352/online+retail)
 
 ### Relevant Fields:
-1. *InvoiceNo*:
+1. InvoiceNo:
 Description: Unique identifier for each transaction or invoice.
 
 Type: String
 
 Usage: Tracks and differentiates individual sales transactions.
 
-2. *StockCode*:
+2. StockCode:
 Description: Unique identifier for each product sold.
 
 Type: String
 
 Usage: Represents the product or item sold in the transaction. It can be used to track sales per product.
 
-3. *Description*:
+3. Description:
 Description: Name or description of the product sold.
 
 Type: String
 
 Usage: Provides more details about the product, which is useful for identifying the item by name.
 
-5. *Quantity*:
+5. Quantity:
 Description: The number of units sold in the transaction.
 
 Type: Integer
 
 Usage: Shows how many items were sold in that transaction.
 
-7. *InvoiceDate*:
+6. InvoiceDate:
 Description: Date and time when the transaction was processed.
 
 Type: DateTime
 
 Usage: Provides temporal information about when a sale occurred. Useful for analyzing sales over time or identifying daily trends.
 
-9. *UnitPrice*:
+7. UnitPrice:
 Description: Price of a single unit of the product.
 
 Type: Float
 
 Usage: Shows how much a single unit of the product costs. Used to calculate the total revenue for each product.
 
-11. *CustomerID*:
+8. CustomerID:
 Description: Unique identifier for each customer.
 
 Type: Integer
 
 Usage: Helps identify the customer who made the purchase, useful for analyzing customer behaviors and trends.
 
-13. *Country*:
+9. Country:
 Description: The country where the customer resides.
 
 Type: String
