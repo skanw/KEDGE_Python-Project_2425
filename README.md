@@ -16,35 +16,54 @@ Description: Unique identifier for each transaction or invoice.
 Type: String
 
 Usage: Tracks and differentiates individual sales transactions.
+
 2. *StockCode*:
 Description: Unique identifier for each product sold.
 
 Type: String
 
 Usage: Represents the product or item sold in the transaction. It can be used to track sales per product.
+
 3. *Description*:
 Description: Name or description of the product sold.
+
 Type: String
+
 Usage: Provides more details about the product, which is useful for identifying the item by name.
-4. *Quantity*:
+
+5. *Quantity*:
 Description: The number of units sold in the transaction.
+
 Type: Integer
+
 Usage: Shows how many items were sold in that transaction.
-5. *InvoiceDate*:
+
+7. *InvoiceDate*:
 Description: Date and time when the transaction was processed.
+
 Type: DateTime
+
 Usage: Provides temporal information about when a sale occurred. Useful for analyzing sales over time or identifying daily trends.
-6. *UnitPrice*:
+
+9. *UnitPrice*:
 Description: Price of a single unit of the product.
+
 Type: Float
+
 Usage: Shows how much a single unit of the product costs. Used to calculate the total revenue for each product.
-7. *CustomerID*:
+
+11. *CustomerID*:
 Description: Unique identifier for each customer.
+
 Type: Integer
+
 Usage: Helps identify the customer who made the purchase, useful for analyzing customer behaviors and trends.
-8. *Country*:
+
+13. *Country*:
 Description: The country where the customer resides.
+
 Type: String
+
 Usage: Useful for geographical analysis and segmenting customers by location.
 
 ## Approach
