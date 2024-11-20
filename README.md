@@ -11,17 +11,17 @@ Link: [UCI Repository](https://archive.ics.uci.edu/dataset/352/online+retail)
 
 ### Relevant Fields:
 1. *InvoiceNo*:
-Description: Unique identifier for each transaction or invoice.
-Type: String
-Usage: Used to track and differentiate between individual sales transactions.
+-Description: Unique identifier for each transaction or invoice.
+-Type: String
+-Usage: Tracks and differentiates individual sales transactions.
 2. *StockCode*:
-Description: Unique identifier for each product sold.
-Type: String
-Usage: Represents the product or item sold in the transaction. It can be used to track sales per product.
+-Description: Unique identifier for each product sold.
+-Type: String
+-Usage: Represents the product or item sold in the transaction. It can be used to track sales per product.
 3. *Description*:
-Description: Name or description of the product sold.
-Type: String
-Usage: Provides more details about the product, which is useful for identifying the item by name.
+-Description: Name or description of the product sold.
+-Type: String
+-Usage: Provides more details about the product, which is useful for identifying the item by name.
 4. *Quantity*:
 Description: The number of units sold in the transaction.
 Type: Integer
